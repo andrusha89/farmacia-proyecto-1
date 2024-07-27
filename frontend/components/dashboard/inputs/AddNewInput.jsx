@@ -122,7 +122,7 @@ const AddNewInput = ({handleCloseClick, refreshAction, productsNameListData}) =>
             reverseOrder={false}
             />
         <div className='bg-white h-min relative px-8 py-7 mx-auto my-[70px] w-fit '>
-            <div onClick={()=>handleCloseClick()} className='absolute rounded-full w-fit h-fit right-2 top-2 cursor-pointer' >
+            <div onClick={() => handleCloseClick()} className='absolute rounded-full w-fit h-fit top-2 right-2 cursor-pointer'>
                 <Image src={"/assets/icons/closeButton.png"} alt={'close button'} width={24} height={24} />
             </div>
             <h4 className='text-blackDark font-bold text-[22px]'>Add new input</h4>
