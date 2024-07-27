@@ -51,7 +51,7 @@ const AddNewCategory = ({handleCloseClick, refreshAction}) => {
             reverseOrder={false}
             />
         <div className='bg-white h-min relative px-8 py-7 w-1/3'>
-            <div onClick={()=>handleCloseClick()} className='absolute rounded-full w-fit h-fit right-2 top-2 cursor-pointer' >
+            <div onClick={() => handleCloseClick()} className='absolute rounded-full w-fit h-fit top-2 right-2 cursor-pointer'>
                 <Image src={"/assets/icons/closeButton.png"} alt={'close button'} width={24} height={24} />
             </div>
             <h4 className='text-blackDark font-bold text-[22px]'>Add new Category</h4>
